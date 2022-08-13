@@ -16,7 +16,7 @@
     <table class="table table-bordered table-striped table-hover" id="tableSurvey">
       <!-- Header Row-->
       <tr>
-        <th class="text-center">ID</th>
+      
         <th class="text-center">Name</th>
         <th class="text-center">Start Date</th>
         <th class="text-center">End Date</th>
@@ -30,9 +30,6 @@
           const survey = surveys[i]; %>
       <tr>
 
-        <td class="text-center">
-          <a href="/survey/<%= survey.id %>"><%= survey.id %></a>
-        </td>
 
         <td class="text-center">
           <%= survey.Name %>
